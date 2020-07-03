@@ -9,8 +9,9 @@ module.exports = {
             .set("@", resolve("src"))
             .set("utils", resolve("src/utils"));   
     },
-    outputDir: __dirname+'/../server/public/admin',
-	publicPath: process.env.NODE_ENV === 'production'
-	    ? '/admin/'
-	    : '/',
+    outputDir: __dirname+'/docs',
+//  outputDir: __dirname+'/../server/public/admin',
+//	publicPath: process.env.NODE_ENV === 'production'
+//	    ? '/docs/'
+//	    : '/',
 }
